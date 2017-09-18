@@ -1,3 +1,10 @@
+2017-09-17 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.7.0-1 :
+	Removed the --ssh option, use ADDRESS:PATH instead.
+	Updated the ssh logic
+	Added option --version that prints out the version.
+	Fixed error msg when libnotify isn't installed.
+	Fixed bug in incremental send that left info.xml empty at destination.
 2017-06-25 Fredrik Salomonsson <plattfot@gmail.com>
 	* 0.6.0-1 :
 	Changed syntax for remote hosts. <address>:<path>
